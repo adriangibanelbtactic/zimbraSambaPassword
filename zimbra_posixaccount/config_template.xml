@@ -16,11 +16,11 @@
  * ***** END LICENSE BLOCK *****
 -->
    <global>
-       	<property name="loginShells">/bin/bash,/bin/sh,/bin/false</property>        
-    	<property name="homePath">/home/%u</property>        
-   		<property name="gidBase">10000</property>        
-   		<property name="uidBase">10000</property>   
-		<property name="ldapSuffix">dc=domain,dc=tld</property>
-		<property name="ldapGroupSuffix">ou=groups</property>
+      <property name="loginShells">/bin/bash,/bin/sh,/bin/false</property>
+      <property name="homePath">/home/%u</property>
+      <property name="gidBase">10000</property>
+      <property name="uidBase">10000</property>
+      <property name="ldapSuffix">dc=domain,dc=tld</property>
+      <property name="ldapGroupSuffix">ou=groups</property>
     </global>
 </zimletConfig>
